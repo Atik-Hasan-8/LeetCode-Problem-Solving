@@ -1,7 +1,7 @@
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
-        container=nums
-        nums.extend(container)
+        num2=nums
+        nums = nums + num2
         return nums
 
         
